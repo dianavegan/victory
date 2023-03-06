@@ -1,0 +1,23 @@
+.categories {
+    padding: 20px;
+    color: rgb(27, 27, 27);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 20px;
+    width: 350px;
+    border-radius: 30px;
+    
+}
+.categories p {
+    text-decoration: none;
+}
+.categories img {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+.categories:hover{
+    border: 1px solid rgb(6, 56, 6);
+}

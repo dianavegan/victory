@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.categories_page {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    column-gap: 92px;
+    row-gap: 25px;
+
+}
+.catalog_page {
+    margin: 53px auto;
+}
+.catalog_page h1 {
+    color: #177165;
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 72px;
+}

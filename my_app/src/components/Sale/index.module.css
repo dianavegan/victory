@@ -1,0 +1,75 @@
+.sale_card{
+   
+    padding: 20px;
+    color: rgb(27, 27, 27);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    position: relative;
+    font-size: 20px;
+    height: 390px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: 1px solid black;
+   
+}
+
+.sale_info{
+    align-items: center;
+    justify-content: space-between;
+}
+.sale_card img {
+    width: 280px;
+    height: 200px;
+    object-fit: contain;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+.sale_sale {
+ display: flex;
+ margin-top: 10px;
+ justify-content: space-between;
+ align-items: center;
+}
+.sale_title{
+    align-items: center;
+    margin-top: 20px;
+}
+.sale_card button {
+    box-sizing: border-box;
+    height: 44px;
+    background:#e9f7f5;
+    width: 200px;
+    border: 1px solid #07201da9;
+    color: #051a17;
+    bottom: 16px;
+    border-radius: 30px;
+    opacity: 0;
+    position: relative;
+}
+.sale_card:hover button {
+    opacity: 1;
+    transition: opacity 0.8s;
+}
+.sale_card button:hover {
+    background:#04110f;
+    color: #e9f7f5;
+    
+}
+.sale_info p:nth-child(1){
+    font-size: 14px;
+    text-decoration: line-through;
+    color: rgb(133, 133, 133);
+}
+.sale_sale p:nth-child(2){
+    font-size: 24px;
+    font-weight: 600;
+    color: #12574e;
+
+}
+.sale_sale p:nth-child(3){
+    color: red;
+}

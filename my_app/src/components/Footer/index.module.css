@@ -1,0 +1,55 @@
+.footer {
+background: url(./img/6114298858.jpg) center / cover no-repeat;
+color: aliceblue;
+font-size: 15px;
+font-weight: 400;
+height: 300px;
+display: flex;
+justify-content: space-between;
+}
+.footer div {
+
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 50px;
+
+ 
+ 
+}
+.footer h1{
+    color: #f3fdfc;
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 400px;
+}
+
+.massengers{
+    display: flex;
+    width: 150px;
+    height: 20px;
+    margin-bottom: -50px;
+}
+.whatsapp{
+    margin-left: 10px;
+    
+}
+.adresse{
+    justify-content: space-between;
+    display: flex;
+    width: 300px;
+}
+.contact_info{
+    background-color: rgba(2, 38, 41, 0.61);
+    height: 140px;
+    width: 1020px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+

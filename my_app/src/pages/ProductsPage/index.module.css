@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.products_page {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    column-gap: 92px;
+    row-gap: 25px;
+
+    
+    
+  
+}
+
+.products_descr_page h1 {
+    color: #177165;
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 72px;
+    margin: 40px auto;
+}
+
+.search_form{
+    display: inline;
+    
+}
+
+.sorting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search_form input,
+.sort_select {
+    border: 1px solid #177165;
+    padding: 10px;
+    width: 103px;
+    height: 42px;
+    margin-right: 10px;
+    
+}
+.search_form button {
+    box-sizing: border-box;
+    height: 42px;
+    background:#e9f7f5;
+    width: 105px;
+    border: 1px solid #15665ba9;
+    color: #177165;
+   
+}
+.search_form button:hover {
+    background:#177165;
+    color: #e9f7f5;
+    box-shadow: 5px 5px 10px #16695ecb;
+    cursor: pointer;
+}
+.sorting span{
+    font-size: 24px;
+    align-items: center;
+}
+.sorting form,button {
+    margin-top: -20px;
+}
+
+
+
+

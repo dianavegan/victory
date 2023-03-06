@@ -1,0 +1,35 @@
+
+
+  .nav_menu {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 100px ;
+    padding: 18px 0;
+    align-items: center;
+    
+   
+
+   
+  }
+  
+  .nav_menu a {
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: #038b2c;
+    font-size: 16px;
+  }
+  .nav_menu a:hover{
+    color: #222222;
+    
+   
+
+  }
+  .nav_menu img{
+    height: 50px;
+    width: 52px;
+    align-items: center;
+    margin-right: 350px;
+    color: black;
+  }
+

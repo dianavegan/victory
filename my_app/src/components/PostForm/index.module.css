@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h2{
+    color: azure;
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 38px;
+    margin-left: 100px;
+    margin-top: 30px;
+    
+    
+    
+
+}
+.first_order{
+    width: 410px;
+    margin: 50px ;
+    
+   
+    
+
+}
+span{
+    font-size: 50px;
+   text-decoration: underline 1px;
+   display: flex;
+}
+.order{
+    display: flex;
+    width: 1300px;
+    justify-content: space-between;
+    
+    
+    
+}
+.discount_order{
+    background-color:  #031d19da;
+    padding: 60px;
+    width: 400px; 
+    height: 250px;
+    margin-right: 150px;
+    margin-top: 55px;
+    border-radius: 30px;
+    
+  
+}
+.discount_order form{
+    height: 100px;
+    margin-top: -18px;
+    align-items: center;
+    margin-bottom: 10px;
+
+    
+}
+.discount_order input{
+    height: 40px;
+    width: 273px;
+    background-color: azure;
+    border: rgba(255, 255, 255, 0);
+    margin-right: -20px;
+    outline: 0;
+    border-radius: 30px;
+   
+}
+
+.discount_order button{
+    box-sizing: border-box;
+    height: 44px;
+    background:#e9f7f5;
+    width: 200px;
+    border: 1px solid rgb(2, 32, 2);
+    color: #177165;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 30px;
+
+
+    
+}
+.discount_order button:hover{
+    color: #d2f8f2;
+    background-color: #042520;
+    border-color: #cbf3ed;
+}
+.discount_order p{
+    color: #b5f8ee;
+    font-family: 'Roboto';
+    font-size: 10px;
+    
+    margin-bottom: 20px;
+}
+.error_massage{
+  text-decoration: underline red;
+}
+
+

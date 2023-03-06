@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.home_page {
+    height: 788px;
+    width: 1350px;
+    background: url(./img/1614427907_15-p-rasteniya-na-temnom-fone-21.jpg) center / cover no-repeat;
+    position: absolute;
+    background-size: contain;
+    margin-left: -90px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: contain;
+   
+}
+
+.home_page h1{
+    font-family: 'Roboto';
+    font-size: 48px;
+    line-height: 78px;
+    color: rgb(255, 255, 255);
+    height: 200px;
+    left: 8%;
+    right: 17.27%;
+    font-style: normal;
+    width: 600px;
+    margin-bottom: 40px;
+
+    
+}
+
+
+
+.text {
+   
+    width: 600px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    
+   
+}
+.text p{
+    
+    color: #A4D6CF;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #A4D6CF;
+
+}
+
+.utp{
+    margin: 30px;
+    background-color: #041f1be1;
+    margin-left: 350px;
+    margin-top: 300px;
+    padding: 40px;
+    border-radius: 30px;
+    display: block;
+    align-items: start;
+    text-align: center;
+
+}
+.home_page button{
+    box-sizing: border-box;
+    height: 44px;
+    background: #FFFFFF;
+    width: 200px;
+    border: 1px solid rgb(2, 32, 2);
+    color: #177165;
+    border-radius: 30px;
+}
+
+.home_page button:hover{
+   
+    background: #031b18;
+    border: 1px solid white;
+    color: #FFFFFF;
+}
+
+.categories_page {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -100px;
+    height: 450px;
+    align-items: center; 
+    margin-top: -50px;
+    
+    
+}
+.categories_home_page h1{
+    color: #07473f;
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 500;
+    
+}
+.categories_home_page{
+    display: flex;
+    width: 490px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 300px;
+
+}
+.categories_home_page button{
+    box-sizing: border-box;
+    height: 44px;
+    background: #FFFFFF;
+    width: 200px;
+    border: 1px solid rgb(2, 32, 2);
+    color: #177165;
+    border-radius: 30px;
+    margin-top: 5px;
+    
+}
+.categories_home_page button:hover{
+    background: #031b18;
+    border: 1px solid white;
+    color: #FFFFFF;
+}
+
+.post_page{
+    background-image: url('./img/6ba0e772835a5a323b25bbc61d45cec0.jpeg');
+    width: 1357px;
+    height: 350px;
+    margin-left: -97px;
+    
+    
+}
+.home_page_sale{
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+   
+   
+}
+
+.sale_paragraph{
+    display: flex;
+    width: 490px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+
+}
+.sale_paragraph h1{
+    color: #0a312c;
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 500;
+    margin-left: 320px;
+}
+.sale_paragraph button{
+    box-sizing: border-box;
+    height: 44px;
+    background:#fcfcfc;
+    width: 200px;
+    border: 1px solid rgb(2, 32, 2);
+    color: #177165;
+    margin-right: 80px;
+    margin-top: 5px;
+    border-radius: 30px;
+    margin-left: 100px;
+
+    
+}
+
+.sale_paragraph button:hover {
+    background: #031b18;
+    border: 1px solid white;
+    color: #FFFFFF;
+}

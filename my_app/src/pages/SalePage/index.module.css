@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.sale_cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    column-gap: 92px;
+    row-gap: 25px;
+}
+.sale h1{
+    color: #177165;
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 72px;
+    margin-top: 40px;
+    
+}
